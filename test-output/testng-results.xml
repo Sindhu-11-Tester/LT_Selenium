@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-12T16:03:44 IST" name="LT_Selenium" finished-at="2025-01-12T16:06:46 IST" duration-ms="181762">
+    <groups>
+    </groups>
+    <test started-at="2025-01-12T16:03:44 IST" name="Edge on macOS Ventura" finished-at="2025-01-12T16:05:59 IST" duration-ms="135460">
+      <class name="seleniumPKG.mac_Edge_Selenium">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:03:44 IST" name="setUp" finished-at="2025-01-12T16:04:32 IST" duration-ms="48063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:04:32 IST" name="testSimpleFormDemo" finished-at="2025-01-12T16:04:37 IST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:04:37 IST" name="tearDown" finished-at="2025-01-12T16:04:37 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:04:37 IST" name="setUp" finished-at="2025-01-12T16:05:05 IST" duration-ms="27672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:05:05 IST" name="testDragAndDropSlider" finished-at="2025-01-12T16:05:10 IST" duration-ms="4854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:05:10 IST" name="tearDown" finished-at="2025-01-12T16:05:10 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:05:10 IST" name="setUp" finished-at="2025-01-12T16:05:55 IST" duration-ms="44693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:05:55 IST" name="testInputFormSubmit" finished-at="2025-01-12T16:05:59 IST" duration-ms="4311" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please fill out this field.] but found [Please fill in this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please fill out this field.] but found [Please fill in this field.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at seleniumPKG.mac_Edge_Selenium.testInputFormSubmit(mac_Edge_Selenium.java:112)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.mac_Edge_Selenium@7817fd62]" started-at="2025-01-12T16:05:59 IST" name="tearDown" finished-at="2025-01-12T16:05:59 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.mac_Edge_Selenium -->
+    </test> <!-- Edge on macOS Ventura -->
+    <test started-at="2025-01-12T16:03:44 IST" name="Chrome on Windows 10" finished-at="2025-01-12T16:06:06 IST" duration-ms="142328">
+      <class name="seleniumPKG.window_10_Chrome_Selenium">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:03:44 IST" name="setUp" finished-at="2025-01-12T16:04:12 IST" duration-ms="28375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:12 IST" name="testSimpleFormDemo" finished-at="2025-01-12T16:04:20 IST" duration-ms="7490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:20 IST" name="tearDown" finished-at="2025-01-12T16:04:20 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:20 IST" name="setUp" finished-at="2025-01-12T16:04:53 IST" duration-ms="32889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:53 IST" name="testDragAndDropSlider" finished-at="2025-01-12T16:04:58 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:58 IST" name="tearDown" finished-at="2025-01-12T16:04:59 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:04:59 IST" name="setUp" finished-at="2025-01-12T16:05:56 IST" duration-ms="57643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:05:56 IST" name="testInputFormSubmit" finished-at="2025-01-12T16:06:06 IST" duration-ms="9735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_Chrome_Selenium@5e0e82ae]" started-at="2025-01-12T16:06:06 IST" name="tearDown" finished-at="2025-01-12T16:06:06 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.window_10_Chrome_Selenium -->
+    </test> <!-- Chrome on Windows 10 -->
+    <test started-at="2025-01-12T16:03:44 IST" name="Internet Explorer on Windows 10" finished-at="2025-01-12T16:06:25 IST" duration-ms="160864">
+      <class name="seleniumPKG.windows_10_IE_Selenium">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:03:44 IST" name="setUp" finished-at="2025-01-12T16:04:43 IST" duration-ms="59410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:04:43 IST" name="testSimpleFormDemo" finished-at="2025-01-12T16:04:50 IST" duration-ms="6833" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome to LambdaTest] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome to LambdaTest] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at seleniumPKG.windows_10_IE_Selenium.testSimpleFormDemo(windows_10_IE_Selenium.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:04:50 IST" name="tearDown" finished-at="2025-01-12T16:04:50 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:04:50 IST" name="setUp" finished-at="2025-01-12T16:05:28 IST" duration-ms="37733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:05:28 IST" name="testDragAndDropSlider" finished-at="2025-01-12T16:05:34 IST" duration-ms="6135" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [95] but found [15]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [95] but found [15]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at seleniumPKG.windows_10_IE_Selenium.testDragAndDropSlider(windows_10_IE_Selenium.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:05:34 IST" name="tearDown" finished-at="2025-01-12T16:05:34 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:05:34 IST" name="setUp" finished-at="2025-01-12T16:06:18 IST" duration-ms="44126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:06:18 IST" name="testInputFormSubmit" finished-at="2025-01-12T16:06:25 IST" duration-ms="6180" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please fill out this field.] but found [This is a required field]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please fill out this field.] but found [This is a required field]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at seleniumPKG.windows_10_IE_Selenium.testInputFormSubmit(windows_10_IE_Selenium.java:108)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.windows_10_IE_Selenium@4c178a76]" started-at="2025-01-12T16:06:25 IST" name="tearDown" finished-at="2025-01-12T16:06:25 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.windows_10_IE_Selenium -->
+    </test> <!-- Internet Explorer on Windows 10 -->
+    <test started-at="2025-01-12T16:03:44 IST" name="Firefox on Windows 11" finished-at="2025-01-12T16:06:46 IST" duration-ms="181760">
+      <class name="seleniumPKG.window_10_FFox_Selenium">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:03:44 IST" name="setUp" finished-at="2025-01-12T16:04:19 IST" duration-ms="35086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:04:19 IST" name="testSimpleFormDemo" finished-at="2025-01-12T16:04:31 IST" duration-ms="11806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:04:31 IST" name="tearDown" finished-at="2025-01-12T16:04:33 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:04:33 IST" name="setUp" finished-at="2025-01-12T16:05:24 IST" duration-ms="50775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:05:24 IST" name="testDragAndDropSlider" finished-at="2025-01-12T16:05:35 IST" duration-ms="11492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:05:35 IST" name="tearDown" finished-at="2025-01-12T16:05:38 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:05:38 IST" name="setUp" finished-at="2025-01-12T16:06:25 IST" duration-ms="47711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sindhutaishinde01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[l05b2ia4K5GNf43YqZ5UeGLrmmR85xsnEzwV36w8ZKMuK4CBI9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:06:25 IST" name="testInputFormSubmit" finished-at="2025-01-12T16:06:44 IST" duration-ms="18296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.window_10_FFox_Selenium@7770f470]" started-at="2025-01-12T16:06:44 IST" name="tearDown" finished-at="2025-01-12T16:06:46 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.window_10_FFox_Selenium -->
+    </test> <!-- Firefox on Windows 11 -->
+  </suite> <!-- LT_Selenium -->
+</testng-results>
