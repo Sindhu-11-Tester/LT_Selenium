@@ -8,7 +8,7 @@ This project demonstrates running Selenium tests with TestNG on different browse
 - Git
 - Java 8 or later
 
-## Setup
+## Setup new
 
 1. Clone the repository
     ```sh
